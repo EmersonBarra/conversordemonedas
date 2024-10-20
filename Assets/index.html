@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 6 conversor de monedas</title>
+    <link rel="stylesheet" href="/Assets/css/style.css">
+</head>
+<body>
+    <main>
+    <section class="titulo">
+        <h2>Conversor de monedas Nacional</h2>
+    </section>
+        <section class="box">
+        <p class="subtitulo1">Pesos CPL</p>
+        <input type="number" class="monto">
+        <p class="subtitulo1">Moneda a convertir</p>
+        <div class="listado"></div>
+        <button onclick="valida()">Buscar</button>
+        <p class="resultado"></p>
+    </section>
+    <section class="grafico">
+        <canvas id="myChart"></canvas>
+    </section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/Assets/js/js.js"></script>
+</body>
+</html>
